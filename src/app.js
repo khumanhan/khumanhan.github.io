@@ -1,6 +1,5 @@
-const openCamera = require('./openCamera');
+const openStream = require('./openStream');
 
-openCamera();
+openStream();
 
 console.log('great hello');
- 

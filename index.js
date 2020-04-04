@@ -10,4 +10,4 @@ app.use("/public", express.static('./public/'));
 //---
 app.get('/', (req, res) => res.render('home'));
 
-app.listen(3000, () => console.log('server started'));
+app.listen(process.env.PORT || 3000, () => console.log('server started'));
